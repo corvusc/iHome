@@ -1,0 +1,23 @@
+{
+  "name": "ihome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corvusc/iHome.git"
+  },
+  "author": "Maciej Świątek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corvusc/iHome/issues"
+  },
+  "homepage": "https://github.com/corvusc/iHome#readme",
+  "dependencies": {
+    "cordova": "latest",
+    "sockets-for-cordova": "latest"
+  }
+}

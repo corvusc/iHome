@@ -88,7 +88,8 @@ var app = {
                     itemsDesktop: [1199, 6],
                     itemsDesktopSmall: [979, 5],
                     itemsTablet: [768, 4],
-                    itemsMobile: [479, 3]
+                    itemsMobile: [479, 3],
+                    scrollPerPage: true
                 });
 
                 $('.blinds-list').owlCarousel({
@@ -97,7 +98,8 @@ var app = {
                     itemsDesktop: [1199, 6],
                     itemsDesktopSmall: [979, 5],
                     itemsTablet: [768, 4],
-                    itemsMobile: [479, 3]
+                    itemsMobile: [479, 3],
+                    scrollPerPage: true
                 });
 
                 $('.roof-windows-list').owlCarousel({
@@ -106,7 +108,8 @@ var app = {
                     itemsDesktop: [1199, 6],
                     itemsDesktopSmall: [979, 5],
                     itemsTablet: [768, 4],
-                    itemsMobile: [479, 3]
+                    itemsMobile: [479, 3],
+                    scrollPerPage: true
                 });
 
                 $('.cameras-list').owlCarousel({

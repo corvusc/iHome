@@ -39,9 +39,8 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		8B3F483CCD1E4DA3BB489A53 /* SocketPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE2E10AA5F14D4DAA20FA41 /* SocketPlugin.m */; };
-		D02A8D5F7EC54AA78ED39449 /* SocketAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D5D0591445869E23C867 /* SocketAdapter.m */; };
-		17464B7EA0C94A4993399245 /* CDVTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = BE487378F4024EBD8CF0D734 /* CDVTTS.m */; };
+		DCCD476966284956B0CB1B73 /* SocketPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 329E5479530D44E8904EC5D9 /* SocketPlugin.m */; };
+		E1C1DC5247154A0B81660EBC /* SocketAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE115FC205C436B9E65D467 /* SocketAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,12 +106,10 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "iHome/config.xml"; sourceTree = "<group>"; };
-		EAE2E10AA5F14D4DAA20FA41 /* SocketPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocketPlugin.m"; path = "cz.blocshop.socketsforcordova/SocketPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		22A5D5D0591445869E23C867 /* SocketAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocketAdapter.m"; path = "cz.blocshop.socketsforcordova/SocketAdapter.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		8F0B7F8E9B14484E82E433D6 /* SocketPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocketPlugin.h"; path = "cz.blocshop.socketsforcordova/SocketPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		145934BAA502452EB6830E49 /* SocketAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocketAdapter.h"; path = "cz.blocshop.socketsforcordova/SocketAdapter.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		BE487378F4024EBD8CF0D734 /* CDVTTS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVTTS.m"; path = "cordova-plugin-tts/CDVTTS.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		7A8449305DAC4A38B83D10E6 /* CDVTTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVTTS.h"; path = "cordova-plugin-tts/CDVTTS.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		329E5479530D44E8904EC5D9 /* SocketPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocketPlugin.m"; path = "cz.blocshop.socketsforcordova/SocketPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CAE115FC205C436B9E65D467 /* SocketAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocketAdapter.m"; path = "cz.blocshop.socketsforcordova/SocketAdapter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B2403235B258415CB402ED09 /* SocketPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocketPlugin.h"; path = "cz.blocshop.socketsforcordova/SocketPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B7474B6C1E6F46AEAB185E05 /* SocketAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocketAdapter.h"; path = "cz.blocshop.socketsforcordova/SocketAdapter.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,12 +208,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				EAE2E10AA5F14D4DAA20FA41 /* SocketPlugin.m */,
-				22A5D5D0591445869E23C867 /* SocketAdapter.m */,
-				8F0B7F8E9B14484E82E433D6 /* SocketPlugin.h */,
-				145934BAA502452EB6830E49 /* SocketAdapter.h */,
-				BE487378F4024EBD8CF0D734 /* CDVTTS.m */,
-				7A8449305DAC4A38B83D10E6 /* CDVTTS.h */,
+				329E5479530D44E8904EC5D9 /* SocketPlugin.m */,
+				CAE115FC205C436B9E65D467 /* SocketAdapter.m */,
+				B2403235B258415CB402ED09 /* SocketPlugin.h */,
+				B7474B6C1E6F46AEAB185E05 /* SocketAdapter.h */,
 			);
 			name = Plugins;
 			path = "iHome/Plugins";
@@ -401,9 +396,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				8B3F483CCD1E4DA3BB489A53 /* SocketPlugin.m in Sources */,
-				D02A8D5F7EC54AA78ED39449 /* SocketAdapter.m in Sources */,
-				17464B7EA0C94A4993399245 /* CDVTTS.m in Sources */,
+				DCCD476966284956B0CB1B73 /* SocketPlugin.m in Sources */,
+				E1C1DC5247154A0B81660EBC /* SocketAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,9 +17,6 @@
     <feature name="SocketsForCordova">
         <param name="ios-package" value="SocketPlugin" />
     </feature>
-    <feature name="TTS">
-        <param name="ios-package" value="CDVTTS" />
-    </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <name>iHome</name>

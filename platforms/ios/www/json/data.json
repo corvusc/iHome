@@ -1,100 +1,100 @@
 {
   "blinds": [
     {
-      "name": "Wszystkie",
+      "name": "Wszystkie rolety",
       "min": 1,
       "max": 11
     },
     {
-      "name": "Kuchnia",
+      "name": "Roleta - Kuchnia",
       "min": 1
     },
     {
-      "name": "Kuchnia",
+      "name": "Roleta - Kuchnia",
       "min": 2
     },
     {
-      "name": "Wykusz",
+      "name": "Roleta - Wykusz",
       "min": 3
     },
     {
-      "name": "Wykusz",
+      "name": "Roleta - Wykusz",
       "min": 4
     },
     {
-      "name": "Wykusz",
+      "name": "Roleta - Wykusz",
       "min": 5
     },
     {
-      "name": "Salon",
+      "name": "Roleta - Salon",
       "min": 6
     },
     {
-      "name": "Taras",
+      "name": "Roleta - Taras",
       "min": 7
     },
     {
-      "name": "Taras",
+      "name": "Roleta - Taras",
       "min": 8
     },
     {
-      "name": "Sypialnia",
+      "name": "Roleta - Sypialnia",
       "min": 9
     },
     {
-      "name": "Łazienka",
+      "name": "Roleta - Łazienka",
       "min": 10,
       "id": 10
     },
     {
-      "name": "Gabinet",
+      "name": "Roleta - Gabinet",
       "min": 11
     }
   ],
   "roofWindows": [
     {
-      "name": "Wszystkie",
+      "name": "Wszystkie okna połaciowe",
       "min": 1,
       "max": 10
     },
     {
-      "name": "Łazienka",
+      "name": "Okno - Łazienka",
       "min": 1
     },
     {
-      "name": "Lewa sypialnia",
+      "name": "Okno - Lewa sypialnia",
       "min": 2
     },
     {
-      "name": "Lewa sypialnia",
+      "name": "Okno - Lewa sypialnia",
       "min": 3
     },
     {
-      "name": "Lewa sypialnia",
+      "name": "Okno - Lewa sypialnia",
       "min": 4
     },
     {
-      "name": "Centralna sypialnia",
+      "name": "Okno - Centralna sypialnia",
       "min": 5
     },
     {
-      "name": "Centralna sypialnia",
+      "name": "Okno - Centralna sypialnia",
       "min": 6
     },
     {
-      "name": "Prawa sypialnia",
+      "name": "Okno - Prawa sypialnia",
       "min": 7
     },
     {
-      "name": "Prawa sypialnia",
+      "name": "Okno - Prawa sypialnia",
       "min": 8
     },
     {
-      "name": "Prawa sypialnia",
+      "name": "Okno - Prawa sypialnia",
       "min": 9
     },
     {
-      "name": "Schody",
+      "name": "Okno - Schody",
       "min": 10
     }
   ],
@@ -163,15 +163,15 @@
           "max": 4
         },
         {
-          "name": "Okno połaciowe - Lewa sypialnia",
+          "name": "Okno - Lewa sypialnia",
           "min": 2
         },
         {
-          "name": "Okno połaciowe - Lewa sypialnia",
+          "name": "Okno - Lewa sypialnia",
           "min": 3
         },
         {
-          "name": "Okno połaciowe - Lewa sypialnia",
+          "name": "Okno - Lewa sypialnia",
           "min": 4
         }
       ]
@@ -185,15 +185,15 @@
           "max": 9
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 7
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 8
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 9
         }
       ]
@@ -207,15 +207,15 @@
           "max": 9
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 7
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 8
         },
         {
-          "name": "Okno połaciowe - Prawa sypialnia",
+          "name": "Okno - Prawa sypialnia",
           "min": 9
         }
       ]
@@ -229,11 +229,11 @@
           "max": 6
         },
         {
-          "name": "Okno połaciowe - Centralna sypialnia",
+          "name": "Okno - Centralna sypialnia",
           "min": 5
         },
         {
-          "name": "Okno połaciowe - Centralna sypialnia",
+          "name": "Okno - Centralna sypialnia",
           "min": 6
         }
       ]
@@ -247,11 +247,11 @@
           "max": 6
         },
         {
-          "name": "Okno połaciowe - Centralna sypialnia",
+          "name": "Okno - Centralna sypialnia",
           "min": 5
         },
         {
-          "name": "Okno połaciowe - Centralna sypialnia",
+          "name": "Okno - Centralna sypialnia",
           "min": 6
         }
       ]

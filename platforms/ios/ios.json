@@ -11,10 +11,6 @@
                         {
                             "xml": "<feature name=\"SocketsForCordova\"><param name=\"ios-package\" value=\"SocketPlugin\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"TTS\"><param name=\"ios-package\" value=\"CDVTTS\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -27,9 +23,6 @@
         },
         "cz.blocshop.socketsforcordova": {
             "PACKAGE_NAME": "io.cordova.ihome"
-        },
-        "cordova-plugin-tts": {
-            "PACKAGE_NAME": "io.cordova.ihome"
         }
     },
     "dependent_plugins": {},
@@ -41,14 +34,10 @@
             "clobbers": [
                 "window.Socket"
             ]
-        },
-        {
-            "file": "plugins/cordova-plugin-tts/www/tts.js",
-            "id": "cordova-plugin-tts.tts",
-            "pluginId": "cordova-plugin-tts",
-            "clobbers": [
-                "TTS"
-            ]
         }
-    ]
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.2.0",
+        "cz.blocshop.socketsforcordova": "1.1.0"
+    }
 }

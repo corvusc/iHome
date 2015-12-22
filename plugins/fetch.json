@@ -15,13 +15,5 @@
         },
         "is_top_level": true,
         "variables": {}
-    },
-    "cordova-plugin-tts": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-tts"
-        },
-        "is_top_level": true,
-        "variables": {}
     }
 }

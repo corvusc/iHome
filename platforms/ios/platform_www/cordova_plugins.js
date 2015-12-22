@@ -7,18 +7,13 @@ module.exports = [
         "clobbers": [
             "window.Socket"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-tts/www/tts.js",
-        "id": "cordova-plugin-tts.tts",
-        "pluginId": "cordova-plugin-tts",
-        "clobbers": [
-            "TTS"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
-{}
+{
+    "cordova-plugin-whitelist": "1.2.0",
+    "cz.blocshop.socketsforcordova": "1.1.0"
+}
 // BOTTOM OF METADATA
 });

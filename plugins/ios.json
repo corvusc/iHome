@@ -12,9 +12,6 @@
         },
         "cz.blocshop.socketsforcordova": {
             "PACKAGE_NAME": "io.cordova.ihome"
-        },
-        "cordova-plugin-tts": {
-            "PACKAGE_NAME": "io.cordova.ihome"
         }
     },
     "dependent_plugins": {}
