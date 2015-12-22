@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose readDependencies loading dependencies from /Users/sg0221197/IdeaProjects/iHome/package.json
+5 warn package.json ihome@1.0.0 No description
+6 warn package.json ihome@1.0.0 No README data
+7 verbose install where, deps [ '/Users/sg0221197/IdeaProjects/iHome',
+7 verbose install   [ 'cordova', 'sockets-for-cordova' ] ]
+8 verbose install where, peers [ '/Users/sg0221197/IdeaProjects/iHome', [] ]
+9 verbose installManyTop reading for lifecycle /Users/sg0221197/IdeaProjects/iHome/package.json
+10 info preinstall ihome@1.0.0
+11 verbose readDependencies loading dependencies from /Users/sg0221197/IdeaProjects/iHome/package.json
+12 silly cache add args [ 'cordova@latest', null ]
+13 verbose cache add spec cordova@latest
+14 silly cache add args [ 'sockets-for-cordova@latest', null ]
+15 verbose cache add spec sockets-for-cordova@latest
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'cordova@latest',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'cordova',
+16 silly cache add   rawSpec: 'latest',
+16 silly cache add   spec: 'latest',
+16 silly cache add   type: 'tag' }
+17 silly addNamed cordova@latest
+18 verbose addNamed "latest" is being treated as a dist-tag for cordova
+19 info addNameTag [ 'cordova', 'latest' ]
+20 silly mapToRegistry name cordova
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/cordova
+24 verbose addNameTag registry:https://registry.npmjs.org/cordova not in flight; fetching
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'sockets-for-cordova@latest',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'sockets-for-cordova',
+25 silly cache add   rawSpec: 'latest',
+25 silly cache add   spec: 'latest',
+25 silly cache add   type: 'tag' }
+26 silly addNamed sockets-for-cordova@latest
+27 verbose addNamed "latest" is being treated as a dist-tag for sockets-for-cordova
+28 info addNameTag [ 'sockets-for-cordova', 'latest' ]
+29 silly mapToRegistry name sockets-for-cordova
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/sockets-for-cordova
+33 verbose addNameTag registry:https://registry.npmjs.org/sockets-for-cordova not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/sockets-for-cordova
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 1:29:05 PM
+37 verbose request id cdd2063d449aec9c
+38 http request GET https://registry.npmjs.org/sockets-for-cordova
+39 verbose request uri https://registry.npmjs.org/cordova
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 1:29:05 PM
+42 verbose etag "5B1JRXC1B44F1882XYDZP7ESP"
+43 http request GET https://registry.npmjs.org/cordova
+44 http 304 https://registry.npmjs.org/cordova
+45 verbose headers { date: 'Tue, 22 Dec 2015 12:29:05 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   etag: '"5B1JRXC1B44F1882XYDZP7ESP"',
+45 verbose headers   age: '42',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+45 verbose headers   'x-cache': 'HIT',
+45 verbose headers   'x-cache-hits': '1',
+45 verbose headers   'x-timer': 'S1450787345.557888,VS0,VE0',
+45 verbose headers   vary: 'Accept' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Tue, 22 Dec 2015 12:29:05 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     etag: '"5B1JRXC1B44F1882XYDZP7ESP"',
+46 silly get     age: '42',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-fra1225-FRA',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1450787345.557888,VS0,VE0',
+46 silly get     vary: 'Accept' } ]
+47 verbose etag https://registry.npmjs.org/cordova from cache
+48 verbose get saving cordova to /Users/sg0221197/.npm/registry.npmjs.org/cordova/.cache.json
+49 silly addNameTag next cb for cordova with tag latest
+50 silly addNamed cordova@5.4.1
+51 verbose addNamed "5.4.1" is a plain semver version for cordova
+52 silly cache afterAdd cordova@5.4.1
+53 verbose afterAdd /Users/sg0221197/.npm/cordova/5.4.1/package/package.json not in flight; writing
+54 verbose afterAdd /Users/sg0221197/.npm/cordova/5.4.1/package/package.json written
+55 http 404 https://registry.npmjs.org/sockets-for-cordova
+56 verbose headers { 'content-type': 'application/json',
+56 verbose headers   'cache-control': 'max-age=0',
+56 verbose headers   'content-length': '2',
+56 verbose headers   'accept-ranges': 'bytes',
+56 verbose headers   date: 'Tue, 22 Dec 2015 12:29:05 GMT',
+56 verbose headers   via: '1.1 varnish',
+56 verbose headers   age: '0',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+56 verbose headers   'x-cache': 'MISS',
+56 verbose headers   'x-cache-hits': '0',
+56 verbose headers   'x-timer': 'S1450787345.557729,VS0,VE200' }
+57 silly get cb [ 404,
+57 silly get   { 'content-type': 'application/json',
+57 silly get     'cache-control': 'max-age=0',
+57 silly get     'content-length': '2',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Tue, 22 Dec 2015 12:29:05 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '0',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-fra1237-FRA',
+57 silly get     'x-cache': 'MISS',
+57 silly get     'x-cache-hits': '0',
+57 silly get     'x-timer': 'S1450787345.557729,VS0,VE200' } ]
+58 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/sockets-for-cordova
+58 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+58 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+58 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+58 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+58 verbose stack     at emitTwo (events.js:87:13)
+58 verbose stack     at Request.emit (events.js:172:7)
+58 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+58 verbose stack     at emitOne (events.js:82:20)
+58 verbose stack     at Request.emit (events.js:169:7)
+58 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+59 verbose statusCode 404
+60 verbose pkgid sockets-for-cordova
+61 verbose cwd /Users/sg0221197/IdeaProjects/iHome
+62 error Darwin 14.5.0
+63 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+64 error node v4.2.2
+65 error npm  v2.14.7
+66 error code E404
+67 error 404 Registry returned 404 for GET on https://registry.npmjs.org/sockets-for-cordova
+67 error 404
+67 error 404 'sockets-for-cordova' is not in the npm registry.
+67 error 404 You should bug the author to publish it (or use the name yourself!)
+67 error 404 It was specified as a dependency of 'ihome'
+67 error 404
+67 error 404 Note that you can also install from a
+67 error 404 tarball, folder, http url, or git url.
+68 verbose exit [ 1, true ]
