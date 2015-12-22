@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.ihome"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "io.cordova.ihome"
+        },
+        "cordova-plugin-tts": {
+            "PACKAGE_NAME": "io.cordova.ihome"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cz.blocshop.socketsforcordova/socket.js",
+            "id": "cz.blocshop.socketsforcordova.Socket",
+            "pluginId": "cz.blocshop.socketsforcordova",
+            "clobbers": [
+                "window.Socket"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-tts/www/tts.js",
+            "id": "cordova-plugin-tts.tts",
+            "pluginId": "cordova-plugin-tts",
+            "clobbers": [
+                "TTS"
+            ]
+        }
+    ]
+}

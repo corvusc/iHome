@@ -1,0 +1,260 @@
+{
+  "blinds": [
+    {
+      "name": "Wszystkie rolety",
+      "min": 1,
+      "max": 11
+    },
+    {
+      "name": "Roleta - Kuchnia",
+      "min": 1
+    },
+    {
+      "name": "Roleta - Kuchnia",
+      "min": 2
+    },
+    {
+      "name": "Roleta - Wykusz",
+      "min": 3
+    },
+    {
+      "name": "Roleta - Wykusz",
+      "min": 4
+    },
+    {
+      "name": "Roleta - Wykusz",
+      "min": 5
+    },
+    {
+      "name": "Roleta - Salon",
+      "min": 6
+    },
+    {
+      "name": "Roleta - Taras",
+      "min": 7
+    },
+    {
+      "name": "Roleta - Taras",
+      "min": 8
+    },
+    {
+      "name": "Roleta - Sypialnia",
+      "min": 9
+    },
+    {
+      "name": "Roleta - Łazienka",
+      "min": 10,
+      "id": 10
+    },
+    {
+      "name": "Roleta - Gabinet",
+      "min": 11
+    }
+  ],
+  "roofWindows": [
+    {
+      "name": "Wszystkie okna połaciowe",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "name": "Okno - Łazienka",
+      "min": 1
+    },
+    {
+      "name": "Okno - Lewa sypialnia",
+      "min": 2
+    },
+    {
+      "name": "Okno - Lewa sypialnia",
+      "min": 3
+    },
+    {
+      "name": "Okno - Lewa sypialnia",
+      "min": 4
+    },
+    {
+      "name": "Okno - Centralna sypialnia",
+      "min": 5
+    },
+    {
+      "name": "Okno - Centralna sypialnia",
+      "min": 6
+    },
+    {
+      "name": "Okno - Prawa sypialnia",
+      "min": 7
+    },
+    {
+      "name": "Okno - Prawa sypialnia",
+      "min": 8
+    },
+    {
+      "name": "Okno - Prawa sypialnia",
+      "min": 9
+    },
+    {
+      "name": "Okno - Schody",
+      "min": 10
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Kamera #1",
+      "type": 1,
+      "url": "192.168.65.51"
+    },
+    {
+      "name": "Kamera #2",
+      "type": 1,
+      "url": "192.168.65.52"
+    },
+    {
+      "name": "Kamera #3",
+      "type": 2,
+      "url": "192.168.65.53"
+    },
+    {
+      "name": "Kamera #4",
+      "type": 2,
+      "url": "192.168.65.54"
+    },
+    {
+      "name": "Kamera #5",
+      "type": 1,
+      "url": "192.168.65.55"
+    },
+    {
+      "name": "Kamera #6",
+      "type": 2,
+      "url": "192.168.65.56"
+    },
+    {
+      "name": "Kamera #7",
+      "type": 2,
+      "url": "192.168.65.57"
+    }
+  ],
+  "users": [
+    {
+      "name": "Robert",
+      "blinds": [
+        {
+          "name": "Roleta - Sypialnia",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "name": "Kasia",
+      "blinds": [
+        {
+          "name": "Roleta - Sypialnia",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "name": "Maciek",
+      "roofWindows": [
+        {
+          "name": "Wszystkie okna połaciowe",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "name": "Okno - Lewa sypialnia",
+          "min": 2
+        },
+        {
+          "name": "Okno - Lewa sypialnia",
+          "min": 3
+        },
+        {
+          "name": "Okno - Lewa sypialnia",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "name": "Przemek",
+      "roofWindows": [
+        {
+          "name": "Wszystkie okna połaciowe",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 7
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 8
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "roofWindows": [
+        {
+          "name": "Wszystkie okna połaciowe",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 7
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 8
+        },
+        {
+          "name": "Okno - Prawa sypialnia",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "name": "Grzegorz",
+      "roofWindows": [
+        {
+          "name": "Wszystkie okna połaciowe",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "name": "Okno - Centralna sypialnia",
+          "min": 5
+        },
+        {
+          "name": "Okno - Centralna sypialnia",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "name": "Dorota",
+      "roofWindows": [
+        {
+          "name": "Wszystkie okna połaciowe",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "name": "Okno - Centralna sypialnia",
+          "min": 5
+        },
+        {
+          "name": "Okno - Centralna sypialnia",
+          "min": 6
+        }
+      ]
+    }
+  ]
+}
